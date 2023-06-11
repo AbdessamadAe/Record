@@ -1,0 +1,136 @@
+.mylogin *,
+.mylogin *:before,
+.mylogin *:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*.mylogin{
+    background-color: #2b8cec;
+}*/
+
+.mybackground{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+} 
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background: linear-gradient(
+        #84a9ff,
+        #b5e1ff
+    );
+    left: -80px;
+    top: -80px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff8269,
+        #ffd293
+    );
+    right: -30px;
+    bottom: -80px;
+}
+.myform{
+    height: 520px;
+    width: 400px;
+    background-color: rgba(197, 197, 197, 0.192);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 29%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(145, 145, 145, 0.6);
+    padding: 50px 35px;
+}
+.myform *{
+    font-family: 'Poppins',sans-serif;
+    color: #030303;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.myform h2{
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 42px;
+    text-align: center;
+    color: #673ab7;
+    margin-bottom: 20px;
+}
+.mylogo{
+    display: flex;
+    scale: 0.8;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+.mylabel{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.myinput{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #f8fafc;
+    border-radius: 9px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 12.7px;
+    font-weight: 300;
+    border: 1px solid #c6c6c6;
+}
+::placeholder{
+    color: #2c2c2c;
+    font-size: 11px;
+}
+.mybutton{
+    margin-top: 30px;
+    width: 100%;
+    height: 48px;
+    background-color: #673ab7;
+    color: #f5f2fa;
+    border: 1px solid #dfdfdf;
+    padding: auto;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}

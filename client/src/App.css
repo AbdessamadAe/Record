@@ -1,0 +1,14 @@
+.custom-background{
+    background: url("./assets/login/login_bck.png");
+    background-position: right 170px top 70px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.custom-background1{
+    background-image: url("./assets/login/back1.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
